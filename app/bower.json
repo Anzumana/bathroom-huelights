@@ -1,0 +1,22 @@
+{
+  "name": "bathroom-huelights",
+  "authors": [
+    "Anzumana <taal@projektionisten.de>"
+  ],
+  "description": "App to display if the bathroom is being used right now or now",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
