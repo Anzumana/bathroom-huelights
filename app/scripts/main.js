@@ -8,9 +8,11 @@ $( document ).ready(function() {
 			console.log(data);
 			var already_taken = data[3].state.reachable;
 			if(already_taken){
-				$("body").css('background-color', 'red');
+	 			$("body").css('background-color', 'red');
+				$("#favicon").attr("href","favicon_red.ico");
 			} else {
 				$("body").css('background-color', 'green');
+				$("#favicon").attr("href","favicon_green.ico");
 			}
 			
 		});
